@@ -6,7 +6,7 @@ public class YearUtilities {
 				if (year % 400 == 0) {
 					return false;
 				} else {
-					return true;
+					return false;
 				}
 			} else {
 				return false;
@@ -14,6 +14,6 @@ public class YearUtilities {
 		} else {
 			return true;
 		}
-		return false;
+
 	}
 }
